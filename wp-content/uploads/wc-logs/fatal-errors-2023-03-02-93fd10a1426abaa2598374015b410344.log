@@ -1,0 +1,24 @@
+2023-03-02T13:40:13+00:00 CRITICAL Cannot redeclare botiga_style_css() (previously declared in C:\xampp\htdocs\test-task\wp-content\themes\childbotiga\functions.php:4) in C:\xampp\htdocs\test-task\wp-content\themes\botiga\functions.php on line 334
+
+2023-03-02T13:40:14+00:00 CRITICAL Cannot redeclare botiga_style_css() (previously declared in C:\xampp\htdocs\test-task\wp-content\themes\childbotiga\functions.php:4) in C:\xampp\htdocs\test-task\wp-content\themes\botiga\functions.php on line 334
+
+2023-03-02T13:41:31+00:00 CRITICAL syntax error, unexpected token "-", expecting "(" in C:\xampp\htdocs\test-task\wp-content\themes\childbotiga\functions.php on line 3
+
+2023-03-02T13:41:33+00:00 CRITICAL syntax error, unexpected token "-", expecting "(" in C:\xampp\htdocs\test-task\wp-content\themes\childbotiga\functions.php on line 3
+
+2023-03-02T13:42:50+00:00 CRITICAL syntax error, unexpected token "-", expecting "(" in C:\xampp\htdocs\test-task\wp-content\themes\childbotiga\functions.php on line 3
+
+2023-03-02T13:50:23+00:00 CRITICAL Uncaught DivisionByZeroError: Division by zero in C:\xampp\htdocs\test-task\wp-admin\includes\class-custom-image-header.php:1277
+Stack trace:
+#0 C:\xampp\htdocs\test-task\wp-admin\includes\class-custom-image-header.php(1380): Custom_Image_Header->get_header_dimensions(Array)
+#1 C:\xampp\htdocs\test-task\wp-includes\class-wp-hook.php(308): Custom_Image_Header->ajax_header_crop('')
+#2 C:\xampp\htdocs\test-task\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\test-task\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\test-task\wp-admin\admin-ajax.php(188): do_action('wp_ajax_custom-...')
+#5 {main}
+  thrown in C:\xampp\htdocs\test-task\wp-admin\includes\class-custom-image-header.php on line 1277
+
+2023-03-02T14:23:09+00:00 CRITICAL syntax error, unexpected token "<", expecting end of file in C:\xampp\htdocs\test-task\wp-content\themes\botiga\header.php on line 41
+
+2023-03-02T14:23:11+00:00 CRITICAL syntax error, unexpected token "<", expecting end of file in C:\xampp\htdocs\test-task\wp-content\themes\botiga\header.php on line 41
+

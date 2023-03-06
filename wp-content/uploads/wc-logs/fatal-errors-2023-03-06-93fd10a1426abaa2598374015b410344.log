@@ -1,0 +1,356 @@
+2023-03-06T07:57:11+00:00 CRITICAL Cannot redeclare botiga_content_width() (previously declared in C:\xampp\htdocs\test-task\wp-content\themes\childbotiga\functions.php:245) in C:\xampp\htdocs\test-task\wp-content\themes\botiga\functions.php on line 244
+
+2023-03-06T07:57:12+00:00 CRITICAL Cannot redeclare botiga_content_width() (previously declared in C:\xampp\htdocs\test-task\wp-content\themes\childbotiga\functions.php:245) in C:\xampp\htdocs\test-task\wp-content\themes\botiga\functions.php on line 244
+
+2023-03-06T09:02:29+00:00 CRITICAL syntax error, unexpected token "/" in C:\xampp\htdocs\test-task\wp-content\themes\botiga\inc\classes\class-botiga-posts-archive.php on line 255
+
+2023-03-06T09:02:30+00:00 CRITICAL syntax error, unexpected token "/" in C:\xampp\htdocs\test-task\wp-content\themes\botiga\inc\classes\class-botiga-posts-archive.php on line 255
+
+2023-03-06T09:03:40+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\test-task\wp-content\themes\childbotiga\template-parts\content-single.php:40
+Stack trace:
+#0 C:\xampp\htdocs\test-task\wp-includes\template.php(785): require()
+#1 C:\xampp\htdocs\test-task\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\test-task\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\test-task\wp-content\themes\botiga\single.php(21): get_template_part('template-parts/...', 'single')
+#4 C:\xampp\htdocs\test-task\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\test-task\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\test-task\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\test-task\wp-content\themes\childbotiga\template-parts\content-single.php on line 40
+
+2023-03-06T09:03:42+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\test-task\wp-content\themes\childbotiga\template-parts\content-single.php:40
+Stack trace:
+#0 C:\xampp\htdocs\test-task\wp-includes\template.php(785): require()
+#1 C:\xampp\htdocs\test-task\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\test-task\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\test-task\wp-content\themes\botiga\single.php(21): get_template_part('template-parts/...', 'single')
+#4 C:\xampp\htdocs\test-task\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\test-task\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\test-task\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\test-task\wp-content\themes\childbotiga\template-parts\content-single.php on line 40
+
+2023-03-06T09:04:11+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\test-task\wp-content\themes\childbotiga\template-parts\content-single.php:40
+Stack trace:
+#0 C:\xampp\htdocs\test-task\wp-includes\template.php(785): require()
+#1 C:\xampp\htdocs\test-task\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\test-task\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\test-task\wp-content\themes\botiga\single.php(21): get_template_part('template-parts/...', 'single')
+#4 C:\xampp\htdocs\test-task\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\test-task\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\test-task\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\test-task\wp-content\themes\childbotiga\template-parts\content-single.php on line 40
+
+2023-03-06T09:04:12+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\test-task\wp-content\themes\childbotiga\template-parts\content-single.php:40
+Stack trace:
+#0 C:\xampp\htdocs\test-task\wp-includes\template.php(785): require()
+#1 C:\xampp\htdocs\test-task\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\test-task\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\test-task\wp-content\themes\botiga\single.php(21): get_template_part('template-parts/...', 'single')
+#4 C:\xampp\htdocs\test-task\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\test-task\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\test-task\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\test-task\wp-content\themes\childbotiga\template-parts\content-single.php on line 40
+
+2023-03-06T09:09:14+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\test-task\wp-content\themes\childbotiga\template-parts\content-single.php:40
+Stack trace:
+#0 C:\xampp\htdocs\test-task\wp-includes\template.php(785): require()
+#1 C:\xampp\htdocs\test-task\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\test-task\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\test-task\wp-content\themes\botiga\single.php(21): get_template_part('template-parts/...', 'single')
+#4 C:\xampp\htdocs\test-task\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\test-task\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\test-task\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\test-task\wp-content\themes\childbotiga\template-parts\content-single.php on line 40
+
+2023-03-06T09:09:16+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\test-task\wp-content\themes\childbotiga\template-parts\content-single.php:40
+Stack trace:
+#0 C:\xampp\htdocs\test-task\wp-includes\template.php(785): require()
+#1 C:\xampp\htdocs\test-task\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\test-task\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\test-task\wp-content\themes\botiga\single.php(21): get_template_part('template-parts/...', 'single')
+#4 C:\xampp\htdocs\test-task\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\test-task\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\test-task\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\test-task\wp-content\themes\childbotiga\template-parts\content-single.php on line 40
+
+2023-03-06T09:16:49+00:00 CRITICAL Cannot redeclare botiga_content_width() (previously declared in C:\xampp\htdocs\test-task\wp-content\themes\childbotiga\functions.php:245) in C:\xampp\htdocs\test-task\wp-content\themes\botiga\functions.php on line 244
+
+2023-03-06T09:16:49+00:00 CRITICAL Cannot redeclare botiga_content_width() (previously declared in C:\xampp\htdocs\test-task\wp-content\themes\childbotiga\functions.php:245) in C:\xampp\htdocs\test-task\wp-content\themes\botiga\functions.php on line 244
+
+2023-03-06T09:31:37+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\test-task\wp-content\themes\childbotiga\template-parts\content-single.php:40
+Stack trace:
+#0 C:\xampp\htdocs\test-task\wp-includes\template.php(785): require()
+#1 C:\xampp\htdocs\test-task\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\test-task\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\test-task\wp-content\themes\botiga\single.php(21): get_template_part('template-parts/...', 'single')
+#4 C:\xampp\htdocs\test-task\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\test-task\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\test-task\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\test-task\wp-content\themes\childbotiga\template-parts\content-single.php on line 40
+
+2023-03-06T10:03:18+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\test-task\wp-content\themes\childbotiga\template-parts\content-single.php:40
+Stack trace:
+#0 C:\xampp\htdocs\test-task\wp-includes\template.php(785): require()
+#1 C:\xampp\htdocs\test-task\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\test-task\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\test-task\wp-content\themes\botiga\single.php(21): get_template_part('template-parts/...', 'single')
+#4 C:\xampp\htdocs\test-task\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\test-task\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\test-task\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\test-task\wp-content\themes\childbotiga\template-parts\content-single.php on line 40
+
+2023-03-06T10:03:20+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\test-task\wp-content\themes\childbotiga\template-parts\content-single.php:40
+Stack trace:
+#0 C:\xampp\htdocs\test-task\wp-includes\template.php(785): require()
+#1 C:\xampp\htdocs\test-task\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\test-task\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\test-task\wp-content\themes\botiga\single.php(21): get_template_part('template-parts/...', 'single')
+#4 C:\xampp\htdocs\test-task\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\test-task\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\test-task\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\test-task\wp-content\themes\childbotiga\template-parts\content-single.php on line 40
+
+2023-03-06T10:10:55+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\test-task\wp-content\themes\childbotiga\template-parts\content-single.php:40
+Stack trace:
+#0 C:\xampp\htdocs\test-task\wp-includes\template.php(785): require()
+#1 C:\xampp\htdocs\test-task\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\test-task\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\test-task\wp-content\themes\botiga\single.php(21): get_template_part('template-parts/...', 'single')
+#4 C:\xampp\htdocs\test-task\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\test-task\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\test-task\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\test-task\wp-content\themes\childbotiga\template-parts\content-single.php on line 40
+
+2023-03-06T10:10:57+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\test-task\wp-content\themes\childbotiga\template-parts\content-single.php:40
+Stack trace:
+#0 C:\xampp\htdocs\test-task\wp-includes\template.php(785): require()
+#1 C:\xampp\htdocs\test-task\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\test-task\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\test-task\wp-content\themes\botiga\single.php(21): get_template_part('template-parts/...', 'single')
+#4 C:\xampp\htdocs\test-task\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\test-task\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\test-task\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\test-task\wp-content\themes\childbotiga\template-parts\content-single.php on line 40
+
+2023-03-06T10:17:45+00:00 CRITICAL Uncaught Error: Failed opening required 'C:\xampp\htdocs\test-task/wp-content/themes/Botiga/inc/classes/class-botiga-posts-archive.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\test-task\wp-content\themes\botiga\functions.php:471
+Stack trace:
+#0 C:\xampp\htdocs\test-task\wp-settings.php(585): include()
+#1 C:\xampp\htdocs\test-task\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test-task\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\test-task\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\test-task\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\test-task\wp-content\themes\botiga\functions.php on line 471
+
+2023-03-06T10:17:46+00:00 CRITICAL Uncaught Error: Failed opening required 'C:\xampp\htdocs\test-task/wp-content/themes/Botiga/inc/classes/class-botiga-posts-archive.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\test-task\wp-content\themes\botiga\functions.php:471
+Stack trace:
+#0 C:\xampp\htdocs\test-task\wp-settings.php(585): include()
+#1 C:\xampp\htdocs\test-task\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test-task\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\test-task\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\test-task\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\test-task\wp-content\themes\botiga\functions.php on line 471
+
+2023-03-06T10:20:11+00:00 CRITICAL Cannot declare class Botiga_Metabox, because the name is already in use in C:\xampp\htdocs\test-task\wp-content\themes\botiga\inc\classes\class-botiga-metabox.php on line 7
+
+2023-03-06T10:20:12+00:00 CRITICAL Cannot declare class Botiga_Metabox, because the name is already in use in C:\xampp\htdocs\test-task\wp-content\themes\botiga\inc\classes\class-botiga-metabox.php on line 7
+
+2023-03-06T10:20:38+00:00 CRITICAL Cannot declare class Botiga_Metabox, because the name is already in use in C:\xampp\htdocs\test-task\wp-content\themes\botiga\inc\classes\class-botiga-metabox.php on line 7
+
+2023-03-06T10:20:39+00:00 CRITICAL Cannot declare class Botiga_Metabox, because the name is already in use in C:\xampp\htdocs\test-task\wp-content\themes\botiga\inc\classes\class-botiga-metabox.php on line 7
+
+2023-03-06T10:20:50+00:00 CRITICAL Cannot declare class Botiga_Metabox, because the name is already in use in C:\xampp\htdocs\test-task\wp-content\themes\botiga\inc\classes\class-botiga-metabox.php on line 7
+
+2023-03-06T10:20:51+00:00 CRITICAL Cannot declare class Botiga_Metabox, because the name is already in use in C:\xampp\htdocs\test-task\wp-content\themes\botiga\inc\classes\class-botiga-metabox.php on line 7
+
+2023-03-06T10:20:54+00:00 CRITICAL Cannot declare class Botiga_Metabox, because the name is already in use in C:\xampp\htdocs\test-task\wp-content\themes\botiga\inc\classes\class-botiga-metabox.php on line 7
+
+2023-03-06T10:20:55+00:00 CRITICAL Cannot declare class Botiga_Metabox, because the name is already in use in C:\xampp\htdocs\test-task\wp-content\themes\botiga\inc\classes\class-botiga-metabox.php on line 7
+
+2023-03-06T10:21:11+00:00 CRITICAL Cannot declare class Botiga_Metabox, because the name is already in use in C:\xampp\htdocs\test-task\wp-content\themes\botiga\inc\classes\class-botiga-metabox.php on line 7
+
+2023-03-06T10:21:12+00:00 CRITICAL Cannot declare class Botiga_Metabox, because the name is already in use in C:\xampp\htdocs\test-task\wp-content\themes\botiga\inc\classes\class-botiga-metabox.php on line 7
+
+2023-03-06T10:21:43+00:00 CRITICAL Uncaught Error: Failed opening required 'C:\xampp\htdocs\test-task/wp-content/themes/Botigaclass-botiga-posts-archive.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\test-task\wp-content\themes\childbotiga\functions.php:7
+Stack trace:
+#0 C:\xampp\htdocs\test-task\wp-settings.php(585): include()
+#1 C:\xampp\htdocs\test-task\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test-task\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\test-task\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\test-task\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\test-task\wp-content\themes\childbotiga\functions.php on line 7
+
+2023-03-06T10:21:44+00:00 CRITICAL Uncaught Error: Failed opening required 'C:\xampp\htdocs\test-task/wp-content/themes/Botigaclass-botiga-posts-archive.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\test-task\wp-content\themes\childbotiga\functions.php:7
+Stack trace:
+#0 C:\xampp\htdocs\test-task\wp-settings.php(585): include()
+#1 C:\xampp\htdocs\test-task\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test-task\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\test-task\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\test-task\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\test-task\wp-content\themes\childbotiga\functions.php on line 7
+
+2023-03-06T10:22:01+00:00 CRITICAL Uncaught Error: Failed opening required 'C:\xampp\htdocs\test-task/wp-content/themes/Botigaclass-botiga-posts-archive.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\test-task\wp-content\themes\childbotiga\functions.php:7
+Stack trace:
+#0 C:\xampp\htdocs\test-task\wp-settings.php(585): include()
+#1 C:\xampp\htdocs\test-task\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test-task\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\test-task\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\test-task\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\test-task\wp-content\themes\childbotiga\functions.php on line 7
+
+2023-03-06T10:22:02+00:00 CRITICAL Uncaught Error: Failed opening required 'C:\xampp\htdocs\test-task/wp-content/themes/Botigaclass-botiga-posts-archive.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\test-task\wp-content\themes\childbotiga\functions.php:7
+Stack trace:
+#0 C:\xampp\htdocs\test-task\wp-settings.php(585): include()
+#1 C:\xampp\htdocs\test-task\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test-task\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\test-task\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\test-task\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\test-task\wp-content\themes\childbotiga\functions.php on line 7
+
+2023-03-06T10:22:25+00:00 CRITICAL Uncaught Error: Failed opening required 'C:\xampp\htdocs\test-task/wp-content/themes/Botigaclass-botiga-posts-archive.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\test-task\wp-content\themes\childbotiga\functions.php:4
+Stack trace:
+#0 C:\xampp\htdocs\test-task\wp-settings.php(585): include()
+#1 C:\xampp\htdocs\test-task\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test-task\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\test-task\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\test-task\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\test-task\wp-content\themes\childbotiga\functions.php on line 4
+
+2023-03-06T10:22:26+00:00 CRITICAL Uncaught Error: Failed opening required 'C:\xampp\htdocs\test-task/wp-content/themes/Botigaclass-botiga-posts-archive.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\test-task\wp-content\themes\childbotiga\functions.php:4
+Stack trace:
+#0 C:\xampp\htdocs\test-task\wp-settings.php(585): include()
+#1 C:\xampp\htdocs\test-task\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test-task\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\test-task\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\test-task\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\test-task\wp-content\themes\childbotiga\functions.php on line 4
+
+2023-03-06T10:24:56+00:00 CRITICAL Uncaught Error: Failed opening required 'C:\xampp\htdocs\test-task/wp-content/themes/Botigaclass-botiga-posts-archive.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\test-task\wp-content\themes\childbotiga\functions.php:4
+Stack trace:
+#0 C:\xampp\htdocs\test-task\wp-settings.php(585): include()
+#1 C:\xampp\htdocs\test-task\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test-task\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\test-task\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\test-task\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\test-task\wp-content\themes\childbotiga\functions.php on line 4
+
+2023-03-06T10:24:56+00:00 CRITICAL Uncaught Error: Failed opening required 'C:\xampp\htdocs\test-task/wp-content/themes/Botigaclass-botiga-posts-archive.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\test-task\wp-content\themes\childbotiga\functions.php:4
+Stack trace:
+#0 C:\xampp\htdocs\test-task\wp-settings.php(585): include()
+#1 C:\xampp\htdocs\test-task\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test-task\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\test-task\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\test-task\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\test-task\wp-content\themes\childbotiga\functions.php on line 4
+
+2023-03-06T10:25:16+00:00 CRITICAL Uncaught Error: Class "Botiga_SVG_Icons" not found in C:\xampp\htdocs\test-task\wp-content\themes\botiga\inc\template-functions.php:161
+Stack trace:
+#0 C:\xampp\htdocs\test-task\wp-content\themes\botiga\functions.php(264): botiga_get_svg_icon('icon-cancel')
+#1 C:\xampp\htdocs\test-task\wp-includes\class-wp-hook.php(308): botiga_widgets_init('')
+#2 C:\xampp\htdocs\test-task\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\test-task\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\test-task\wp-includes\widgets.php(1854): do_action('widgets_init')
+#5 C:\xampp\htdocs\test-task\wp-includes\class-wp-hook.php(308): wp_widgets_init('')
+#6 C:\xampp\htdocs\test-task\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\test-task\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\test-task\wp-settings.php(617): do_action('init')
+#9 C:\xampp\htdocs\test-task\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\test-task\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\test-task\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\test-task\index.php(17): require('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown in C:\xampp\htdocs\test-task\wp-content\themes\botiga\inc\template-functions.php on line 161
+
+2023-03-06T10:25:17+00:00 CRITICAL Uncaught Error: Class "Botiga_SVG_Icons" not found in C:\xampp\htdocs\test-task\wp-content\themes\botiga\inc\template-functions.php:161
+Stack trace:
+#0 C:\xampp\htdocs\test-task\wp-content\themes\botiga\functions.php(264): botiga_get_svg_icon('icon-cancel')
+#1 C:\xampp\htdocs\test-task\wp-includes\class-wp-hook.php(308): botiga_widgets_init('')
+#2 C:\xampp\htdocs\test-task\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\test-task\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\test-task\wp-includes\widgets.php(1854): do_action('widgets_init')
+#5 C:\xampp\htdocs\test-task\wp-includes\class-wp-hook.php(308): wp_widgets_init('')
+#6 C:\xampp\htdocs\test-task\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\test-task\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\test-task\wp-settings.php(617): do_action('init')
+#9 C:\xampp\htdocs\test-task\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\test-task\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\test-task\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\test-task\index.php(17): require('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown in C:\xampp\htdocs\test-task\wp-content\themes\botiga\inc\template-functions.php on line 161
+
+2023-03-06T10:25:39+00:00 CRITICAL Uncaught Error: Class "Botiga_SVG_Icons" not found in C:\xampp\htdocs\test-task\wp-content\themes\botiga\inc\template-functions.php:161
+Stack trace:
+#0 C:\xampp\htdocs\test-task\wp-content\themes\botiga\functions.php(264): botiga_get_svg_icon('icon-cancel')
+#1 C:\xampp\htdocs\test-task\wp-includes\class-wp-hook.php(308): botiga_widgets_init('')
+#2 C:\xampp\htdocs\test-task\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\test-task\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\test-task\wp-includes\widgets.php(1854): do_action('widgets_init')
+#5 C:\xampp\htdocs\test-task\wp-includes\class-wp-hook.php(308): wp_widgets_init('')
+#6 C:\xampp\htdocs\test-task\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\test-task\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\test-task\wp-settings.php(617): do_action('init')
+#9 C:\xampp\htdocs\test-task\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\test-task\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\test-task\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\test-task\index.php(17): require('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown in C:\xampp\htdocs\test-task\wp-content\themes\botiga\inc\template-functions.php on line 161
+
+2023-03-06T10:25:40+00:00 CRITICAL Uncaught Error: Class "Botiga_SVG_Icons" not found in C:\xampp\htdocs\test-task\wp-content\themes\botiga\inc\template-functions.php:161
+Stack trace:
+#0 C:\xampp\htdocs\test-task\wp-content\themes\botiga\functions.php(264): botiga_get_svg_icon('icon-cancel')
+#1 C:\xampp\htdocs\test-task\wp-includes\class-wp-hook.php(308): botiga_widgets_init('')
+#2 C:\xampp\htdocs\test-task\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\test-task\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\test-task\wp-includes\widgets.php(1854): do_action('widgets_init')
+#5 C:\xampp\htdocs\test-task\wp-includes\class-wp-hook.php(308): wp_widgets_init('')
+#6 C:\xampp\htdocs\test-task\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\test-task\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\test-task\wp-settings.php(617): do_action('init')
+#9 C:\xampp\htdocs\test-task\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\test-task\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\test-task\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\test-task\index.php(17): require('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown in C:\xampp\htdocs\test-task\wp-content\themes\botiga\inc\template-functions.php on line 161
+
+2023-03-06T10:27:49+00:00 CRITICAL Uncaught Error: Failed opening required 'C:\xampp\htdocs\test-task/wp-content/themes/Botiga../childbotiga/inc/classes/class-botiga-posts-archive.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\test-task\wp-content\themes\botiga\functions.php:471
+Stack trace:
+#0 C:\xampp\htdocs\test-task\wp-settings.php(585): include()
+#1 C:\xampp\htdocs\test-task\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test-task\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\test-task\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\test-task\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\test-task\wp-content\themes\botiga\functions.php on line 471
+
+2023-03-06T10:27:50+00:00 CRITICAL Uncaught Error: Failed opening required 'C:\xampp\htdocs\test-task/wp-content/themes/Botiga../childbotiga/inc/classes/class-botiga-posts-archive.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\test-task\wp-content\themes\botiga\functions.php:471
+Stack trace:
+#0 C:\xampp\htdocs\test-task\wp-settings.php(585): include()
+#1 C:\xampp\htdocs\test-task\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test-task\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\test-task\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\test-task\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\test-task\wp-content\themes\botiga\functions.php on line 471
+
