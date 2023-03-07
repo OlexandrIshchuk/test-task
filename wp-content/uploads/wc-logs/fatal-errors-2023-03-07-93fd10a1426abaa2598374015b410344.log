@@ -1,0 +1,8 @@
+2023-03-07T14:20:53+00:00 CRITICAL Unmatched '}' in C:\xampp\htdocs\test-task\wp-content\themes\childbotiga\wona-ventures-template.php on line 43
+
+2023-03-07T14:20:54+00:00 CRITICAL Unmatched '}' in C:\xampp\htdocs\test-task\wp-content\themes\childbotiga\wona-ventures-template.php on line 43
+
+2023-03-07T14:23:05+00:00 CRITICAL syntax error, unexpected token "<", expecting end of file in C:\xampp\htdocs\test-task\wp-content\themes\childbotiga\wona-ventures-template.php on line 26
+
+2023-03-07T14:23:06+00:00 CRITICAL syntax error, unexpected token "<", expecting end of file in C:\xampp\htdocs\test-task\wp-content\themes\childbotiga\wona-ventures-template.php on line 26
+

@@ -31,7 +31,7 @@
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'botiga' ); ?></a>
 
 	<header class="menu-header">
-    <div class="site-navigation">
+    <nav class="site-navigation">
       <input type="checkbox" id="menu-toggle" class="menu-toggle" />
       <label for="menu-toggle" class="menu-toggle-label">
         <span class="menu-toggle-icon">
@@ -40,7 +40,7 @@
           <span class="menu-toggle-line"></span>
         </span>
       </label>
-      <div class="menu-container">
+      <nav class="menu-container">
         <ul>
           <li><a href="http://localhost/test-task/">Home</a></li>
           <li><a href="http://localhost/test-task/shop/">Shop</a></li>
@@ -56,9 +56,26 @@
           </li>
           <li><a href="#">Contact Us</a></li>
         </ul>
-      </div>
-    </div>
+      </nav>
+    </nav>
   </header>
+
+  <div class="slider">
+  	<div class="slide active">
+    	<img src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/Slider_1.png" alt="Slide 1">
+  	</div>
+  	<div class="slide">
+    	<img src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/Slider_2.png" alt="Slide 2">
+  	</div>
+  	<div class="slide">
+    	<img src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/Slider_3.png" alt="Slide 3">
+  	</div>
+  	<div class="dots">
+    	<span class="dot active"></span>
+    	<span class="dot"></span>
+    	<span class="dot"></span>
+  	</div>
+</div>
 
 	<?php 
 	/**
@@ -67,7 +84,6 @@
 	// if ( ! function_exists( 'elementor_theme_do_location' ) || ! elementor_theme_do_location( 'header' ) ) {
 	// 	do_action( 'botiga_header' );
 	// }
-	echo do_shortcode('[smartslider3 slider="2"]');
 	/**
 	 * Page Header
 	 */
