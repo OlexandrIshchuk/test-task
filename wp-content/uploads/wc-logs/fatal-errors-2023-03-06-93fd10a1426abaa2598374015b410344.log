@@ -354,3 +354,31 @@ Stack trace:
 #5 {main}
   thrown in C:\xampp\htdocs\test-task\wp-content\themes\botiga\functions.php on line 471
 
+2023-03-06T16:49:27+00:00 CRITICAL syntax error, unexpected token "public", expecting end of file in C:\xampp\htdocs\test-task\wp-content\themes\childbotiga\tpl_my-page.php on line 41
+
+2023-03-06T16:49:28+00:00 CRITICAL syntax error, unexpected token "public", expecting end of file in C:\xampp\htdocs\test-task\wp-content\themes\childbotiga\tpl_my-page.php on line 41
+
+2023-03-06T16:50:44+00:00 CRITICAL syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in C:\xampp\htdocs\test-task\wp-content\themes\childbotiga\tpl_my-page.php on line 112
+
+2023-03-06T16:50:45+00:00 CRITICAL syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in C:\xampp\htdocs\test-task\wp-content\themes\childbotiga\tpl_my-page.php on line 112
+
+2023-03-06T18:33:34+00:00 CRITICAL Uncaught Error: Failed opening required 'C:\xampp\htdocs\test-task/wp-content/themes/Botiga/inc/classes/class-botiga-posts-archive1.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\test-task\wp-content\themes\childbotiga\functions.php:10
+Stack trace:
+#0 C:\xampp\htdocs\test-task\wp-settings.php(585): include()
+#1 C:\xampp\htdocs\test-task\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test-task\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\test-task\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\test-task\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\test-task\wp-content\themes\childbotiga\functions.php on line 10
+
+2023-03-06T18:33:35+00:00 CRITICAL Uncaught Error: Failed opening required 'C:\xampp\htdocs\test-task/wp-content/themes/Botiga/inc/classes/class-botiga-posts-archive1.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\test-task\wp-content\themes\childbotiga\functions.php:10
+Stack trace:
+#0 C:\xampp\htdocs\test-task\wp-settings.php(585): include()
+#1 C:\xampp\htdocs\test-task\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\test-task\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\test-task\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\test-task\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\test-task\wp-content\themes\childbotiga\functions.php on line 10
+

@@ -1,21 +1,13 @@
 <?php
-/**
- * The home template file
- *
- * This is the most generic template file in a WordPress theme
- * and one of the two required files for a theme (the other being style.css).
- * It is used to display a page when nothing more specific matches a query.
- * E.g., it puts together the home page when no home.php file exists.
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
- *
- * @package Botiga
- */
+/*
+Template Name: Wona Ventures Page
+*/
+
 
 get_header();
 ?>
-	
-	<main id="primary" class="site-main <?php echo esc_attr( apply_filters( 'botiga_content_class', '' ) ); ?>" <?php botiga_schema( 'blog' ); ?>>
+
+
 
 	<div class="description-container">
 		<h4>םוספיא םרול ,לאזעזעל ,הז המ?</h4>
@@ -34,49 +26,57 @@ get_header();
 		</div>
 	</div>
 
-		<?php
-		if ( have_posts() ) :
 
-			?>
+<content id="gridcontainer" class="row">
 
-			<div class="posts-archive <?php echo esc_attr( apply_filters( 'botiga_blog_layout_class', 'layout3' ) ); ?>" <?php botiga_masonry_data(); ?>>
-				<div class="row">
-				<?php
-				/* Start the Loop */
-				while ( have_posts() ) :
-					the_post();
+	
+	<?php
 
-					/*
-					* Include the Post-Type-specific template for the content.
-					* If you want to override this in a child theme, then include a file
-					* called content-___.php (where ___ is the Post Type name) and that will be used instead.
-					*/
-					get_template_part( 'template-parts/content', get_post_type() );
+		global $query_string; //Need this to make pagination work
+		
+		/*Setting up our custom query (In here we are setting it to show 12 posts per page and eliminate all sticky posts*/
+		query_posts($query_string . '&caller_get_posts=1&posts_per_page=12');
+		
+		if(have_posts()) :  while(have_posts()) :  the_post();
+	?>
 
-				endwhile; ?>
-				</div>
+	<div class="col-md-6 col-lg-4 col-sm-12 griditem">
+		<div class="postimage">
+			<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_post_thumbnail('category-thumbnail'); ?></a>
+		</div>
+		<h2><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
+
+		<div class="price-and-quantity-row">
+			<div class="price-and-currency">
+				<h5>
+					<?php 
+						the_field('currency');
+						the_field('price'); 
+					?>
+				</h5>
 			</div>
-		<?php
-		the_posts_pagination( array(
-			'mid_size'  => 1,
-			'prev_text' => '&#x2190;',
-			'next_text' => '&#x2192;',
-		) );
+			<span class="quantity-and-unit">
+				<?php
+					the_field('quantity');
+					the_field('unit');
+				?>
+			</span>
+		</div>
 
-		do_action( 'botiga_after_the_posts_pagination' );
+		<button class="quick-review-button" onclick="location.href='<?php the_permalink(); ?>'" type="button">סקירה מהירה</button>
 
-		else :
 
-			get_template_part( 'template-parts/content', 'none' );
 
-		endif;
-		?>
-	</main><!-- #main -->
+	</div>
 
-<?php
-do_action( 'botiga_do_sidebar' );
-get_footer();
-?>
+
+	<?php
+	endwhile;
+	//Post Navigation code goes here
+	endif;
+	?>
+
+</content>
 
 <script>
 function readMore() {

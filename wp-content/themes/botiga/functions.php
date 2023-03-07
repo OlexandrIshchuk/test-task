@@ -468,7 +468,7 @@ if( ! defined( 'BOTIGA_PRO_VERSION' ) ) {
 require get_template_directory() . '/inc/classes/class-botiga-topbar.php';
 require get_template_directory() . '/inc/classes/class-botiga-header.php';
 require get_template_directory() . '/inc/classes/class-botiga-footer.php';
-require get_template_directory() . '../../childbotiga/inc/classes/class-botiga-posts-archive.php';
+require get_template_directory() . '/inc/classes/class-botiga-posts-archive.php';
 require get_template_directory() . '/inc/classes/class-botiga-svg-icons.php';
 require get_template_directory() . '/inc/classes/class-botiga-metabox.php';
 require get_template_directory() . '/inc/classes/class-botiga-custom-css.php';

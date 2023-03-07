@@ -73,8 +73,8 @@
         right: 210px;
         padding: 20px;
         text-align: center;
-        background-color: #FF61E6;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        background-color: #e9b0ca;
+        box-shadow: 0 2px 4px rgba(181, 176, 176, 0.976);
         
         ul {
           list-style: none;
@@ -90,7 +90,7 @@
               font-size: 18px;
               font-weight: bold;
               &:hover{
-                color: #f4c4ca;
+                color: #df4646;
               }
             }
             
@@ -109,8 +109,8 @@
                 z-index: 1;
                 width: 200px;
                 padding: 20px;
-                background-color: #FF61E6;
-                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+                background-color: #e9b0ca;
+                box-shadow: 0 2px 4px rgba(181, 176, 176, 0.976);
                 
                 ul {
                   list-style: none;
@@ -123,7 +123,7 @@
                       color: #ffffff;
                       text-decoration: none;
                       &:hover{
-                        color: #f4c4ca;
+                        color: #df4646;
                       }
                     }
                     

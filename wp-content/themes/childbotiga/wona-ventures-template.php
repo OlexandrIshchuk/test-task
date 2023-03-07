@@ -1,12 +1,10 @@
 <?php
-/**
- * Template part for displaying posts
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
- *
- * @package Botiga
- */
+/*
+Template Name: Wona Ventures Template
+Template post type: post, page
+*/
 
+get_header();
 ?>
 
 <?php
@@ -37,7 +35,7 @@
 	</header><!-- .entry-header -->
 	
 	<div class="row entry-description">
-		<div class="col-md-5">
+		<div class="col-md-5 single-post-thumbnail">
 			<?php if ( 'below' === $single_post_image_placement ) { //if featured image below title
 				botiga_single_post_thumbnail();
 			} ?>
