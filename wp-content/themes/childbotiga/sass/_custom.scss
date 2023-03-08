@@ -47,6 +47,10 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 15px;
+
+    .quantity-and-unit {
+      color: rgba(0, 0, 0, 0.5);;
+    }
   
     .price-and-currency {
   
